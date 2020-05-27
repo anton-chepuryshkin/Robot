@@ -1,0 +1,9 @@
+@mixin telo($wd,$hg,$back,$bor_1,$pos,$l,$t) {
+	width: $wd;
+	height: $hg;
+	background: $back;
+	border: $bor_1;
+	position: $pos;
+	left: $l;
+	top: $t;
+}
