@@ -9,6 +9,7 @@ body {
 	position: relative;
 	left: 24px;
 	top: 24px;
+	border-radius: 50% 50% 50% 50%;
 }
 .telo{
 	@include telo (300px,300px,#cdd5d0,$bor_1,absolute,199px,99px);
@@ -20,6 +21,7 @@ body {
 		position: relative;
 		left: 100px;
 		top: 100px;
+		border-radius: 50% 50% 50% 50%;
 	}
 	.left_glas{
 		@extend .right_glas;
@@ -27,7 +29,7 @@ body {
 		top: 50px;
 	}
 	.rot{
-		@include telo (198px,$h,#ffffff,$bor_1,relative,50px,100px);
+		@include telo (198px,50px,#ffffff,$bor_1,relative,50px,100px);
 		.rot_vl1{
 			@extend %tpl_vl1;
 		}

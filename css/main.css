@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   left: 24px;
   top: 24px;
+  border-radius: 50% 50% 50% 50%;
 }
 
 .telo {
@@ -109,6 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   left: 100px;
   top: 100px;
+  border-radius: 50% 50% 50% 50%;
 }
 .telo .left_glas {
   left: 200px;
@@ -116,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .telo .rot {
   width: 198px;
-  height: 48px;
+  height: 50px;
   background: #ffffff;
   border: 1px solid black;
   position: relative;
